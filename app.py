@@ -141,7 +141,7 @@ class ZabbixApi():
 # header = {"Content-Type": "application/json"}
 # print(type(header))
 # user = 'Admin'
-# passwd = '1qaz2wsx'
+# passwd =
 za = ZabbixApi(url,header,user,password)
 authid=za.loginid()
 print(authid)
