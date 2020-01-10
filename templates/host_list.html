@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Ergate{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <table border="1">
+        <thead>
+        <tr>
+            <th>主机ID</th>
+            <th>主机名</th>
+            <th>监控状态(0代表监控中)</th>
+            <th>主机IP</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for item in host_list %}
+        <tr>
+            <td>{{ item.hostid }}</td>
+            <td>{{ item.host }}</td>
+            <td>{{ item.status }}</td>
+            <td>{{ item.interfaces }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

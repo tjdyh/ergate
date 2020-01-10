@@ -1,0 +1,5 @@
+[zabbix1]
+zabbix_url=http://zabbix.51eanj.com/zabbix/api_jsonrpc.php
+zabbix_user=Admin
+zabbix_pass=
+zabbix_header={"Content-Type": "application/json"}

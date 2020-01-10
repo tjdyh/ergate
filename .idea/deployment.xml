@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="ergate" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="ergate">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/opt/ergate" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@192.168.88.71:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_786" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
