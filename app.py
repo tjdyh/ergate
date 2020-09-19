@@ -103,6 +103,10 @@ def index():
 def show_template(name):
     return render_template('user.html', name=name)
 
+@app.route('/dns')
+def show_dns(name):
+    return render_template('dns.html', name=name)
+
 # if __name__ == '__main__':
 #     manager.run()
 
